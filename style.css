@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image:url("images/bn1.png");
+    background-repeat:no-repeat;
+    background-size:1400px 400px;
+    height: 400px;
+  
+  
+   
+}
+.half-width{
+    width: 50%;
+    text-align: end;
+    padding-right: 150px ;
+   
+}
+.main-header{
+    width: 700;
+    font-size: 40px;
+    line-height:40px;
+    margin-bottom: 10px;
+    
+}
+.flaxible-container{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    height: 400px; 
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.half-width-main{
+    width: 50%;
+    margin-top: ;
+}
+.img-second{
+    width: 300px;
+    
+}
+.first-section{
+    margin-top: 50px ;
+    padding-left: 200px;
+    padding-right:200px;
+}
+.second-header{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom:10px;
+}
+ul{
+    list-style: none;
+}
+.fa-solid{
+   color:rgb(104, 158, 104);
+}
+.pln-section{
+    margin-top:50px;
+
+}
+.third-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.plans-section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 200px;
+}
+.icon{
+    width:70px;
+}
+.call-me{
+    
+    background-image:url("images/gradient2.png"), url('images/watch.png');
+    
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    width: 750px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom:20px;
+    margin-top:15px;
+    color:white;
+   
+
+}
+.image-title{
+    margin-left: 40px;
+    padding-top: 25px;
+    line-height: 30px;
+    
+    
+}
+.btn-call{
+    background-color:white;
+    padding: 8px 15px;
+    color: #F15B22;
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+/* about me section */
+.about{
+    margin: 25px;
+    background:rgb(240, 235, 235);
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 5px 10px #d4d0d0;
+}
+.section-title{
+    text-align: center;
+    padding:10px;
+}
+.section-description{
+    color: rgb(45, 61, 77);
+    font-size:18px;
+  
+    text-align: center;
+    padding:15px 30px;
+}
+/* contact section */
+footer {
+    padding: 100px 200px 100px 150px;
+    display: flex;
+    background: #151414;
+    justify-content: center;
+    
+}
+
+/* conatact info area  */
+
+.contact-area {
+    width: 70%;
+}
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.contact-description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    padding: 20px 0;
+}
+.contact-info {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    padding: 5px 0;
+}
+.social-media-icons {
+    display: flex;
+    padding-top: 20px;
+}
+.social-media-icon {
+    padding-right: 25px;
+}
+
+/* input info area  */
+
+.input-area {
+    width: 30%;
+    padding-left: 250px;
+}
+.input-area-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+}
+.input-area input {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    background: transparent;
+    color: #F3F3F3;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 10px;
+    margin: 20px 0px ;
+}
+.input-area button{
+    padding: 10px 20px;
+    border-radius:5px;
+}
+
+/* custom area  */
+
+.custom-area{
+    padding:  100px 0;
+    background-color: #00f3f386;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.custom-div{
+    width: 60%;
+    padding-left: 80px;
+}
+.custom-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #F8F8F8;
+    padding-bottom: 10px;
+}
+.custom-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F3F3F3;
+    padding: 40px 0 30px 0;
+}
+.custom-btn{
+    color: #00ffff;
+}
+.custom-img{
+    width: 30%;
+    padding-right: 50px;
+    border: none;
+    
+}
+.custom-img img{
+    width: 100%;
+    border-radius: 10px;
+}
