@@ -88,12 +88,12 @@ ul{
     
     background-repeat: no-repeat,repeat;
     background-size: cover;
-    width: 750px;
+    width: 800px;
     height: 150px;
     margin: auto;
     border-radius: 10px;
-    margin-bottom:20px;
-    margin-top:15px;
+    margin :30px auto;
+    padding:15px;
     color:white;
    
 
